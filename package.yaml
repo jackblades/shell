@@ -6,6 +6,44 @@ author:              "Author name here"
 maintainer:          "example@example.com"
 copyright:           "2018 Author name here"
 
+default-extensions:
+- StrictData
+- NoImplicitPrelude
+- ApplicativeDo
+- BangPatterns
+- ConstraintKinds
+- DataKinds
+- DefaultSignatures
+- DeriveFoldable
+- DeriveFunctor
+- DeriveGeneric
+- DeriveLift
+- DeriveTraversable
+- DerivingStrategies
+- EmptyCase
+- ExistentialQuantification
+- FlexibleContexts
+- FlexibleInstances
+- FunctionalDependencies
+- GADTs
+- GeneralizedNewtypeDeriving
+- InstanceSigs
+- KindSignatures
+- LambdaCase
+- MultiParamTypeClasses
+- MultiWayIf
+- NamedFieldPuns
+- OverloadedStrings
+- PatternSynonyms
+- RankNTypes
+- ScopedTypeVariables
+- StandaloneDeriving
+- TupleSections
+- TypeApplications
+- TypeFamilies
+- TypeFamilyDependencies
+- TypeOperators
+
 extra-source-files:
 - README.md
 - ChangeLog.md
@@ -20,7 +58,117 @@ extra-source-files:
 description:         Please see the README on Github at <https://github.com/githubuser/shell#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- base
+- rio
+- reflection
+- gdp
+# - async
+- mtl
+- lens
+- labels
+- deepseq
+- optparse-applicative
+- foldl
+- conduit
+- conduit-extra
+- binary-conduit
+- conduit-algorithms
+- conduit-throttle
+- conduit-concurrent-map
+# - conduit-network-stream  # FAILED BUILD
+- network-conduit-tls
+- resourcet
+- resource-pool
+- safe-exceptions
+- data-default
+- free
+- recursion-schemes
+- dependent-map
+# - Workflow
+
+- stm
+- stm-conduit
+- parallel
+# - speculation
+- strict-concurrency
+
+- hashable
+# - acid-state
+- safecopy
+- containers
+- unordered-containers
+- stm-containers
+# - unpacked-containers
+# - mutable-containers
+- vector
+# - chaselev-deque
+# - vector-conduit  # FAILED BUILD
+- multilinear
+- multilinear-io
+- fgl
+
+# - raaz ? (10 MB blocks, fast)
+- cryptonite
+- cryptonite-openssl
+- cryptonite-conduit
+- memory
+# ---
+- mwc-random
+- mwc-probability
+
+- text
+- unicode-transforms
+- bytestring
+- split
+- string-conversions
+- pretty-simple
+- cereal
+# - nested-sequence
+# - uniplate
+
+# - xml-html-conduit-lens
+- csv-conduit
+
+- QuickCheck
+- quickcheck-instances
+- ekg
+
+- ad
+- uuid
+- time-lens
+# - tree-view
+# - proto-lens, proto-lens-combinators, regex-lens
+# - multi-instance, multipass, stack-prism
+# - ztail, tplot, splot, ftshell
+# - haskell-stack-trace-plugin, inspection-testing
+- criterion
+- file-embed
+# - th-nowq
+# - HPath     # FAILED BUILD
+- language-haskell-extract
+- template-haskell
+- th-utilities
+# - vector-th-unbox
+- inline-c
+
+- aeson
+- lens-aeson
+- megaparsec
+- attoparsec 
+
+# - pid1
+- turtle
+- pretty-terminal
+- haskeline
+
+- diagrams
+# - pandoc
+
+- wreq
+- scotty
+- servant
+- blaze-html
+# - MFlow  requires xz for lzma; brew install xz
 
 library:
   source-dirs: src

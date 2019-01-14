@@ -1,0 +1,65 @@
+
+:set +m
+:set -XNoImplicitPrelude
+
+import qualified Turtle as ZGhci
+import qualified Prelude as ZGhci
+import qualified Control.Applicative as ZGhci
+import qualified System.IO as ZGhci
+import qualified GHC.IO.Handle as ZGhci
+
+-- hoogle
+:{
+let zGhciHoogle str = 
+        ZGhci.return ZGhci.$ ":! hoogle --count=15 \"" ZGhci.++ str ZGhci.++ "\""
+:}
+
+-- hlint
+:{
+let zGhciRedir varcmd = 
+      case ZGhci.break Data.Char.isSpace varcmd of 
+        (var,_:cmd) -> ZGhci.return ZGhci.$ ZGhci.unlines 
+            [ ":set -fno-print-bind-result"
+            , "let tmp = \"/tmp\""
+            , "(f,h) <- ZGhci.openTempFile tmp \"ghci\""
+            , "sto <- GHC.IO.Handle.hDuplicate System.IO.stdout"
+            , "GHC.IO.Handle.hDuplicateTo h System.IO.stdout"
+            , "ZGhci.hClose h"
+            , cmd
+            , "GHC.IO.Handle.hDuplicateTo sto System.IO.stdout"
+            , "let readFileNow f = ZGhci.readFile f >>= \\t->ZGhci.length t `ZGhci.seq` ZGhci.return t"
+            , var ZGhci.++ " <- readFileNow f"
+            , "ZGhci.rm (conv f)"
+            ] 
+        _ -> ZGhci.return "ZGhci.putStrLn \"usage: :redir <var> <cmd>\""
+:}
+
+:{
+let browseFzf m = ZGhci.return ZGhci.$ ZGhci.unlines
+        [ ":set -w"
+        , ":{"
+        , "let listToShell l = case l of"
+        , "        []     -> ZGhci.return \"\""
+        , "        (x:xs) -> ZGhci.return (conv x) ZGhci.<|> listToShell xs"
+        , ":}"
+        , ":redir browseFzf1 :browse " ZGhci.++ m
+        , "sh $ fzfm (listToShell (ZGhci.lines browseFzf1))"
+        , ":set -Wall"
+        ]
+:}
+
+:{
+{-
+let hlint _ = ZGhci.return ZGhci.$ ZGhci.unlines 
+        [ ":set -w"
+        , ":redir hlintvar1 :show modules"
+        , ":cmd return (\":! hlint \" ++ (concat $ Data.List.intersperse \" \" (map (fst . break (==',') . drop 2 . snd . break (== '(')) $ lines hlintvar1)))"
+        , ":set -Wall"
+        ]
+-}
+:}
+
+-- 
+:def hoogle zGhciHoogle
+:def redir zGhciRedir
+:def fzm browseFzf

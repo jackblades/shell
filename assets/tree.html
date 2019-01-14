@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Tree view</title>
+  <style type="text/css">
+    .node {
+    }
+    .interactive:hover {
+        background-color: #CCC;
+    }
+    .collapsed {
+      cursor:      pointer;
+      color:       grey;
+      font-weight: bold;
+    }
+    .expanded {
+      cursor:      pointer;
+      color:       #009;
+      font-weight: bold;
+    }
+    .fixed {
+      color: black;
+    }
+  </style>
+  <style type="text/css">
+    .shown {
+      display: inline;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+  <script type="text/javascript">
+    function toggle(e) {
+      var node     = e.srcElement == undefined ? e.target : e.srcElement;
+      var id       = node.getAttribute("id");
+      var children = document.getElementById("children_" + id),
+          cstyle   = window.getComputedStyle(children),
+          cdispay  = cstyle.getPropertyValue("display");
+      if (cdispay == "inline") {
+        document.getElementById("children_" + id).className = "hidden";
+        document.getElementById(id).className = "node interactive collapsed";
+      } else {
+        document.getElementById("children_" + id).className = "shown";
+        document.getElementById(id).className = "node interactive expanded";
+      }
+    }
+  </script>
+</head>
+
+<body>
+<pre>
+<span id="node0" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;1&lt;/h1&gt;</span><span id="children_node0" class="shown">
+ ├╴<span id="node1" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;2&lt;/h1&gt;</span><span id="children_node1" class="shown">
+ │  ├╴<span id="node2" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;4&lt;/h1&gt;</span><span id="children_node2" class="shown">
+ │  │  ├╴<span id="node3" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;8&lt;/h1&gt;</span><span id="children_node3" class="shown">
+ │  │  │  ├╴<span id="node4" class="node fixed" title="">&lt;h1&gt;16&lt;/h1&gt;</span>
+ │  │  │  └╴<span id="node5" class="node fixed" title="">&lt;h1&gt;17&lt;/h1&gt;</span></span>
+ │  │  └╴<span id="node6" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;9&lt;/h1&gt;</span><span id="children_node6" class="shown">
+ │  │     ├╴<span id="node7" class="node fixed" title="">&lt;h1&gt;18&lt;/h1&gt;</span>
+ │  │     └╴<span id="node8" class="node fixed" title="">&lt;h1&gt;19&lt;/h1&gt;</span></span></span>
+ │  └╴<span id="node9" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;5&lt;/h1&gt;</span><span id="children_node9" class="shown">
+ │     ├╴<span id="node10" class="node fixed" title="">&lt;h1&gt;10&lt;/h1&gt;</span>
+ │     └╴<span id="node11" class="node fixed" title="">&lt;h1&gt;11&lt;/h1&gt;</span></span></span>
+ └╴<span id="node12" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;3&lt;/h1&gt;</span><span id="children_node12" class="shown">
+    ├╴<span id="node13" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;6&lt;/h1&gt;</span><span id="children_node13" class="shown">
+    │  ├╴<span id="node14" class="node fixed" title="">&lt;h1&gt;12&lt;/h1&gt;</span>
+    │  └╴<span id="node15" class="node fixed" title="">&lt;h1&gt;13&lt;/h1&gt;</span></span>
+    └╴<span id="node16" class="node interactive expanded" onclick="toggle(event)" title="">&lt;h1&gt;7&lt;/h1&gt;</span><span id="children_node16" class="shown">
+       ├╴<span id="node17" class="node fixed" title="">&lt;h1&gt;14&lt;/h1&gt;</span>
+       └╴<span id="node18" class="node fixed" title="">&lt;h1&gt;15&lt;/h1&gt;</span></span></span></span>
+</pre>
+</body>
+
+</html>

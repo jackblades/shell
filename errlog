@@ -1,0 +1,180 @@
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 16:40:15 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:04:16 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:04:17 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:04:17 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:04:17 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:40 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:40 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:40 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:40 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:41 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:05:41 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/sum/()"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]
+
+---------------------ERROR-------------------------
+TIME=Fri Dec 14 17:09:54 IST 2018
+
+not found
+CallStack (from HasCallStack):
+  error, called at src/MFlow.hs:693:18 in MFlow-0.4.6.0-BbzoTsYmVKfDIZnPHWKkjA:MFlow
+
+USER= anon#
+
+PATH= favicon.ico
+
+REQUEST:
+
+[("flow","1544785815"),("Host","localhost:7001"),("Connection","keep-alive"),("Pragma","no-cache"),("Cache-Control","no-cache"),("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Accept","image/webp,image/apng,image/*,*/*;q=0.8"),("Referer","http://localhost:7001/"),("Accept-Encoding","gzip, deflate, br"),("Accept-Language","en-GB,en-US;q=0.9,en;q=0.8"),("Cookie","flow=1544785815")]

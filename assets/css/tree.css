@@ -1,0 +1,29 @@
+.node {}
+
+.interactive:hover {
+    background-color: #CCC;
+}
+
+.collapsed {
+    cursor: pointer;
+    color: grey;
+    font-weight: bold;
+}
+
+.expanded {
+    cursor: pointer;
+    color: #009;
+    font-weight: bold;
+}
+
+.fixed {
+    color: black;
+}
+
+.shown {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
